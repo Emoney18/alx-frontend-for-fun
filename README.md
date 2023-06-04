@@ -47,6 +47,6 @@
 ---
 
 ## Author
-* **Owolabi Emmanuel**
+* **Afolabi Oluwaseun**
   [<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>](https://github.com/Seun0001?tab=repositories)
 
