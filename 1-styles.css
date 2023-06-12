@@ -1,27 +1,20 @@
-h2 {
-  display: inline;
-  position: relative;
-}
-a {
-  display: inline-block;
+h2 a {
   text-decoration: none;
-  color: #cc1c3c;
-  z-index: 1;
+  position: relative;
+  color: #8a153a;
 }
-a::before {
+
+h2 a::before {
   content: "";
-  visibility: hidden;
-  height: 3px;
-  width: 64%;
-  background-color: #cc1c3c;
-  left: 3.8rem;
   bottom: 0;
+  width: 0;
+  height: 0.1rem;
   position: absolute;
-  transform-origin: left;
-  transform: scaleX(0);
-  transition: .5s ease-out;
+  transition: 0.9s cubic-bezier(0.17, 0.67, 0, 1.01);
 }
+
 a:hover::before {
-  visibility: visible;
-  transform: scaleX(1);
+  left: 0;
+  background-color: #8a153a;
+  width: 100%;
 }
